@@ -1,1 +1,2 @@
 # landing_page
+In this project, we created am entire web page from scratch using a design provided by The Odin Project. We had to build upon, and solidify, our HTML and CSS knowledge in order to complete this project.
