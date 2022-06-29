@@ -23,3 +23,21 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    margin:0px;
+    background-color: rgb(33, 42, 85);
+
+}
+
+.image-placeholder {
+    display: flex;
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 50px
+}
