@@ -1,7 +1,6 @@
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 /* top most box */
@@ -23,11 +22,16 @@ body {
 
 .links {
     display: flex;
-    gap:16px;
+    gap: 150px;
     justify-content: space-between;
     list-style: none;
     margin: 30px;
+    font-style: italic;
+}
 
+a {
+    color: rgb(48, 56, 78);
+    text-decoration: none;
 }
 /* first "real" box with main image */
 .title {
@@ -85,7 +89,11 @@ button {
 
 .image-container {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
+    margin: 0;
+    flex-wrap: wrap;
+
 }
 
 .random-information {
@@ -94,27 +102,28 @@ button {
     align-items: center;
     color: rgb(34, 97, 175);
     margin: 50px;
+    font-size: 20px;
 }
 .video-text {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex: 1 1 0px;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    
 }
 
 .video {
-    border: 15px solid rgb(34, 97, 175);
-    width: 300px;
-    height: 300px;
+    gap: 50px;
+    padding: 25px;
+    border: 10px solid rgb(34, 97, 175);
 }
 
 .text {
-    display: inline-block;
+    color: rgb(34, 97, 175);
+    margin: 20px;
+    max-width: 300px;
+    max-height: 300px;
 }
-
 /* infamous star quotes */
 .quote-container {
     
