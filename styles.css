@@ -124,7 +124,19 @@ button {
 .video {
     gap: 50px;
     padding: 25px;
-    border: 10px solid rgb(34, 97, 175);
+    box-shadow: rgb(34, 97, 175) 0px 20px 30px -10px;
+}
+
+.grow video{
+    transition: 3s ease;
+}
+
+.grow video:hover {
+    -webkit-transform:scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .text {
@@ -185,14 +197,16 @@ button {
 .petition {
     flex: column;
     justify-content: flex-start;
+    padding: 100px;
 }
 
 
 /* last box containing copyright info */
 .copyright {
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-top: auto; 
+    background-color:  rgb(173, 209, 253);
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
